@@ -24,13 +24,21 @@ ul {
     float: left;
     font-size: 24px;
     font-weight: bold;
-    line-height: 56px;
-    height: 56px;
+    line-height: 34px;
+    height: 34px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 56px;
+    width: 34px;
+}
+
+.square.winner {
+    background: rgba(242, 255, 66, 0.808);
+}
+
+.current-move {
+    font-weight: bold;
 }
 
 .square:focus {
@@ -44,8 +52,6 @@ ul {
 .game {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 .game-info {
